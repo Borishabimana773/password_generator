@@ -12,5 +12,5 @@ Shout out to the partnership with my tutor Corey Yates, during the tutoring sess
 [https://borishabimana773.github.io/password_generator/](https://borishabimana773.github.io/password_generator/)
 
 # Screenshot
-
+![websitescreenshot](Password_Generator.jpeg)
 
