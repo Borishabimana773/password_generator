@@ -2,7 +2,7 @@
 var lowerArray = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","z"]
 var upperArray = ["A","B","C","D","E","F","G","H","I","J","K",'l',"M","N","O","P","Q","R","S","T","U","V","W","X","Z"]
 var numbersArray = [0,1,2,3,4,5,6,7,8,9]
-var specialcharacterArray = ["!","@","#","$","_","*"," ","?"]
+var specialCharacterArray = ["!","@","#","$","_","*"," ","?"]
 var totalArray = []
 var resultArray = []
 
@@ -13,7 +13,7 @@ function generatePassword() {
   var yesLower = window.confirm("would you like lowercase letters?")
   var yesUpper = window.confirm("would you like uppercase letter?")
   var yesNumbers = window.confirm("would you like numbers?")
-  var yesSpecialcharacter = window.confirm("would you like special character?")
+  var yesSpecialCharacter = window.confirm("would you like special character?")
   //console.group(yesLower,yesUpper,yesNumbers,yesSpecialcharacter);
   if (yesLower === true){
     totalArray = totalArray.concat(lowerArray)
@@ -24,8 +24,8 @@ function generatePassword() {
   if (yesNumbers === true){
     totalArray = totalArray.concat(numbersArray)
   }
-  if (yesSpecialcharacter === true) {
-    totalArray = totalArray.concat(specialcharacterArray)
+  if (yesSpecialCharacter === true) {
+    totalArray = totalArray.concat(specialCharacterArray)
   }
   //console.log(totalArray);
  for(var i=0 ; i<passLength; i++){
