@@ -9,6 +9,7 @@ Module content and material studied in the virtual class. The code base was deve
 Shout out to the partnership with my tutor Corey Yates, during the tutoring session I was able to overcome most obstacles I was facing with the code.
 
 # Live website link
+[https://borishabimana773.github.io/password_generator/](https://borishabimana773.github.io/password_generator/)
 
 # Screenshot
 
